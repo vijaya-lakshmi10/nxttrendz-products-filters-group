@@ -1,0 +1,140 @@
+.all-products-section {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .all-products-section {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .all-products-container {
+    margin-left: 30px;
+    width: 70%;
+  }
+}
+
+.products-heading {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .products-heading {
+    font-size: 32px;
+  }
+}
+
+.products-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .products-loader-container {
+    width: 70%;
+  }
+}
+
+.products-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+
+.no-products-view{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.no-products-img{
+  width:250px;
+  height:180px;
+}
+.no-products-heading{
+  color:#171f46;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+}
+.no-products-text{
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 14px;
+  text-align: center;
+  width:90%;
+  max-width: 288px;
+
+}
+.failure-view-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.failure-img{
+  height:200px;
+  width:250px;
+}
+.failure-heading{
+  color:#171f46;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+}
+.failure-text{
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 14px;
+  text-align: center;
+  width:90%;
+  max-width: 288px;
+}
+@media screen and (min-width:768px){
+  .no-products-view{
+    width:70%;
+    margin-left: 30px;
+    margin-top: 0px;
+  }
+  .no-products-img{
+    height:460px;
+    width:315px;
+  }
+  .no-products-heading{
+    font-size: 24px;
+    margin-top: 32px;
+  }
+  .no-products-text{
+    font-size: 18px;
+    width:60%;
+    max-width:466px;
+    margin-top: 12px;
+  }
+  .failure-view-container{
+    width: 70%;
+    margin-left: 30px;
+    margin-top: 0px;
+  }
+  .failure-img{
+    height:350px;
+    width:400px;
+  }
+  .failure-heading{
+    font-size: 24px;
+  }
+  .failure-text{
+    font-size: 18px;
+    width:60%;
+    max-width:466px;
+  }
+}
